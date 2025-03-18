@@ -5,4 +5,5 @@ if [ -d "$path" ]; then
   echo "Deleted all files older than 7 days in $path"
 else
   echo "The specified path does not exist."
+  echo "Please enter a valid path."
 fi
