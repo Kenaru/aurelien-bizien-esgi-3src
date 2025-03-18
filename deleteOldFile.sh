@@ -6,4 +6,5 @@ if [ -d "$path" ]; then
   echo "Congratulation."
 else
   echo "The specified path does not exist."
+  echo "Please enter a valid path."
 fi
