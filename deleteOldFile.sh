@@ -1,3 +1,5 @@
+#! /bin/bash
+
 read -p "Path to clean : " path
 
 if [ -d "$path" ]; then
