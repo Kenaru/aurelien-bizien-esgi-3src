@@ -1,7 +1,7 @@
 on:
   push:
     branch:
-      - main
+      - master
 
 name: "Check shell script"
 
