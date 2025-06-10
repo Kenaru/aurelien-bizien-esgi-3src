@@ -4,10 +4,3 @@ repos:
     hooks:
       - id: shellcheck-conda
         files: \.sh$
-
-  - repo: https://github.com/mvdan/sh
-    rev: v3.7.0  # Version de shfmt
-    hooks:
-      - id: shfmt
-        files: \.sh$
-        args: ["-i", "2", "-ci"]
