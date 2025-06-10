@@ -1,0 +1,6 @@
+repos:
+  - repo: https://github.com/quantco/pre-commit-mirrors-shellcheck
+    rev: ''
+    hooks:
+      - id: shellcheck-conda
+        files: \.sh$
