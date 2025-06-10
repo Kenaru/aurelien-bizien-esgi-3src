@@ -1,6 +1,6 @@
 #! /bin/bash
 
-read -p "Path to clean : " path
+read -r -p "Path to clean : " path
 
 if [ -d "$path" ]; then
   find "$path" -type f -mtime +7 -exec rm -f {} \;
